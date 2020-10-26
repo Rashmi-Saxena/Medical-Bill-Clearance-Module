@@ -1,0 +1,9 @@
+c:\users\administrator\documents\visual studio 2013\Projects\MBS\MBS\bin\MBS.dll.config
+c:\users\administrator\documents\visual studio 2013\Projects\MBS\MBS\bin\MBS.dll
+c:\users\administrator\documents\visual studio 2013\Projects\MBS\MBS\bin\MBS.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\MBS\MBS\bin\MBS.xml
+c:\users\administrator\documents\visual studio 2013\Projects\MBS\MBS\obj\Debug\MBS.Resources.resources
+c:\users\administrator\documents\visual studio 2013\Projects\MBS\MBS\obj\Debug\MBS.vbproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2013\Projects\MBS\MBS\obj\Debug\MBS.dll
+c:\users\administrator\documents\visual studio 2013\Projects\MBS\MBS\obj\Debug\MBS.xml
+c:\users\administrator\documents\visual studio 2013\Projects\MBS\MBS\obj\Debug\MBS.pdb

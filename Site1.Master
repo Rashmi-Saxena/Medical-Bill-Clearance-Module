@@ -1,0 +1,163 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="MBS.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0 0 65 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            height: 57px;
+        }
+
+        li {
+            float: left;
+        }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                li a:hover {
+                    background-color: #111;
+                }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="script" runat="server" ></asp:ScriptManager>
+
+        
+    
+
+
+
+        <div>
+            <div id="div_header">
+
+                <div class="auto-style1" style="font-family: 'Times New Roman MT'; font-size: xx-large; text-align: center; /*background-color: lightgoldenrodyellow*/">
+                    <table style="height: 150px; width: 1891px">
+                        <tr>
+                            <td>
+                                <span class="auto-style3">MEDICAL BILL SYSTEM</span>
+                            </td>
+                            <td class="auto-style4">
+                                <asp:Image runat="server" Height="50px" Width="50px" ImageAlign="AbsMiddle" ImageUrl="Image/login_logo_11.png" />
+                                <br />
+                                <asp:Label ID="lbl_user" runat="server"> </asp:Label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="auto-style4"></td>
+                        </tr>
+                    </table>
+
+
+
+
+
+                </div>
+                <div style="font-size: x-large">
+                    <ul>
+
+                        <li id="li_home" runat="server"><a class="active" href="Home.aspx">Home</a></li>
+                        <li id="li_hr" runat="server"><a href="Add_emp.aspx">Add Employee</a></li>
+                        <li id="li_emp" runat="server"> <a href="MedBill.aspx">Medical Bill</a></li>
+                        <li id="li_emp1" runat="server"><a href="upld.aspx">Upload Documents</a></li>
+                        <li id="li_hr1" runat="server"><a href="hrapprove.aspx">HR Approve</a></li>
+                        <li id="li_emp2"  runat="server"><a href="Emp_report.aspx">Employee report</a></li>
+
+
+                        <li style="float: right"><a>
+                            <asp:Button ID="btn_lgt" CssClass="lgt_btn" runat="server" Text="Logout" Height="36px" Width="74px" /></a></li>
+
+
+                    </ul>
+                </div>
+
+                <asp:ContentPlaceHolder ID="head" runat="server">
+                </asp:ContentPlaceHolder>
+
+                <style type="text/css">
+                    .auto-style2 {
+                        margin-bottom: 19px;
+                    }
+
+                    .auto-style3 {
+                        color: brown;
+                    }
+
+                    .auto-style4 {
+                        width: 123px;
+                    }
+                    .lgt_btn {}
+                </style>
+
+
+
+            </div>
+
+            <div id="div_body">
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                    <p>
+                        <br />
+                    </p>
+                    <p class="auto-style2">
+                    </p>
+                    <p>
+                    </p>
+
+                </asp:ContentPlaceHolder>
+            </div>
+
+
+                   <style>
+                            .footer {
+                              position: fixed;
+                              left: 0;
+                              bottom:10px;
+                              width: 100%;
+                              background-color: #333;
+                              height :57px;
+                              color: white;
+                              text-align: center;
+                             }
+
+                            
+                 </style>
+
+                    <div class="footer" style="font-size: x-large">
+                          <ul>
+                            <%-- Follow us on :- --%>
+                             <asp:Image ID="img_fb" runat="server"  ImageUrl="Image/fb.png"  height="50px" Width="50px" ImageAlign="Top"/>
+                              <asp:Image ID="img_insta" runat="server" ImageUrl="Image/insta.png" height="50px" Width="70px" ImageAlign="Top"  /> 
+                              <asp:Image ID="img_twitter" runat="server" ImageUrl="Image/twitter.png" height="50px" Width="50px" ImageAlign="Top" /> 
+                              <asp:Image ID="img_chrome" runat="server" ImageUrl="Image/chrome.png" height="50px" Width="50px" ImageAlign="Top" /> 
+                              <asp:Image ID="img_yt" runat="server" ImageUrl="Image/yt.png" height="50px" Width="50px" ImageAlign="Top" /> 
+                        
+
+                    </ul>
+
+
+                    </div> 
+              
+        </form> 
+
+        
+  
+</body>
+</html>
